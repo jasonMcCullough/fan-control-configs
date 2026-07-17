@@ -1,0 +1,714 @@
+{
+  "__VERSION__": "271",
+  "FanControl": {
+    "Controls": [
+      {
+        "NickName": "CPU Fan",
+        "Identifier": "/lpc/nct6687dr/control/0",
+        "IsHidden": false,
+        "Enable": true,
+        "SelectedFanCurve": {
+          "Name": "CPU"
+        },
+        "SelectedOffset": 0,
+        "PairedFanSensor": {
+          "Identifier": "/lpc/nct6687dr/fan/0"
+        },
+        "SelectedStart": 19,
+        "SelectedStop": 16,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": [
+          [
+            10,
+            0,
+            false
+          ],
+          [
+            20,
+            458,
+            false
+          ],
+          [
+            30,
+            458,
+            false
+          ],
+          [
+            40,
+            621,
+            false
+          ],
+          [
+            50,
+            767,
+            false
+          ],
+          [
+            60,
+            929,
+            false
+          ],
+          [
+            70,
+            1079,
+            false
+          ],
+          [
+            80,
+            1233,
+            false
+          ],
+          [
+            90,
+            1393,
+            false
+          ],
+          [
+            100,
+            1538,
+            false
+          ]
+        ]
+      },
+      {
+        "NickName": "Pump Fan",
+        "Identifier": "/lpc/nct6687dr/control/1",
+        "IsHidden": true,
+        "Enable": false,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "PairedFanSensor": {
+          "Identifier": "/lpc/nct6687dr/fan/10"
+        },
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": [
+          [
+            0,
+            687,
+            false
+          ],
+          [
+            1,
+            687,
+            false
+          ],
+          [
+            20,
+            722,
+            false
+          ],
+          [
+            30,
+            722,
+            false
+          ],
+          [
+            50,
+            722,
+            false
+          ],
+          [
+            80,
+            722,
+            false
+          ],
+          [
+            90,
+            722,
+            false
+          ],
+          [
+            100,
+            802,
+            false
+          ]
+        ]
+      },
+      {
+        "NickName": "Chipset Fan",
+        "Identifier": "/lpc/nct6687dr/control/2",
+        "IsHidden": true,
+        "Enable": false,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "PairedFanSensor": null,
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": []
+      },
+      {
+        "NickName": "Noctua Front Intake (Top)",
+        "Identifier": "/lpc/nct6687dr/control/10",
+        "IsHidden": false,
+        "Enable": true,
+        "SelectedFanCurve": {
+          "Name": "Intakes"
+        },
+        "SelectedOffset": 0,
+        "PairedFanSensor": {
+          "Identifier": "/lpc/nct6687dr/fan/10"
+        },
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": [
+          [
+            0,
+            0,
+            false
+          ],
+          [
+            1,
+            295,
+            false
+          ],
+          [
+            10,
+            296,
+            false
+          ],
+          [
+            20,
+            304,
+            false
+          ],
+          [
+            30,
+            450,
+            false
+          ],
+          [
+            40,
+            600,
+            false
+          ],
+          [
+            50,
+            744,
+            false
+          ],
+          [
+            60,
+            899,
+            false
+          ],
+          [
+            70,
+            1194,
+            false
+          ],
+          [
+            80,
+            1194,
+            false
+          ],
+          [
+            90,
+            1488,
+            false
+          ],
+          [
+            100,
+            1488,
+            false
+          ]
+        ]
+      },
+      {
+        "NickName": "NZXT Top Exhaust",
+        "Identifier": "/lpc/nct6687dr/control/11",
+        "IsHidden": false,
+        "Enable": true,
+        "SelectedFanCurve": {
+          "Name": "Exhaust"
+        },
+        "SelectedOffset": 0,
+        "PairedFanSensor": {
+          "Identifier": "/lpc/nct6687dr/fan/11"
+        },
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": [
+          [
+            10,
+            0,
+            false
+          ],
+          [
+            20,
+            313,
+            false
+          ],
+          [
+            30,
+            752,
+            false
+          ],
+          [
+            40,
+            752,
+            false
+          ],
+          [
+            50,
+            924,
+            false
+          ],
+          [
+            60,
+            1084,
+            false
+          ],
+          [
+            70,
+            1222,
+            false
+          ],
+          [
+            80,
+            1456,
+            false
+          ],
+          [
+            90,
+            1456,
+            false
+          ],
+          [
+            100,
+            1562,
+            false
+          ]
+        ]
+      },
+      {
+        "NickName": "System Fan #3",
+        "Identifier": "/lpc/nct6687dr/control/12",
+        "IsHidden": true,
+        "Enable": false,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "PairedFanSensor": null,
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": []
+      },
+      {
+        "NickName": "Noctua Front Intake (Bottom)",
+        "Identifier": "/lpc/nct6687dr/control/13",
+        "IsHidden": false,
+        "Enable": true,
+        "SelectedFanCurve": {
+          "Name": "Intakes"
+        },
+        "SelectedOffset": 0,
+        "PairedFanSensor": {
+          "Identifier": "/lpc/nct6687dr/fan/13"
+        },
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 20,
+        "ManualControl": false,
+        "ForceApply": true,
+        "Calibration": [
+          [
+            1,
+            0,
+            false
+          ],
+          [
+            10,
+            310,
+            false
+          ],
+          [
+            20,
+            310,
+            false
+          ],
+          [
+            30,
+            614,
+            false
+          ],
+          [
+            40,
+            615,
+            false
+          ],
+          [
+            50,
+            764,
+            false
+          ],
+          [
+            60,
+            918,
+            false
+          ],
+          [
+            70,
+            1224,
+            false
+          ],
+          [
+            80,
+            1224,
+            false
+          ],
+          [
+            90,
+            1519,
+            false
+          ],
+          [
+            100,
+            1519,
+            false
+          ]
+        ]
+      },
+      {
+        "NickName": "NZXT Rear Exhaust",
+        "Identifier": "/lpc/nct6687dr/control/14",
+        "IsHidden": false,
+        "Enable": true,
+        "SelectedFanCurve": {
+          "Name": "Exhaust"
+        },
+        "SelectedOffset": 0,
+        "PairedFanSensor": {
+          "Identifier": "/lpc/nct6687dr/fan/14"
+        },
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": [
+          [
+            10,
+            0,
+            false
+          ],
+          [
+            20,
+            320,
+            false
+          ],
+          [
+            30,
+            564,
+            false
+          ],
+          [
+            40,
+            905,
+            false
+          ],
+          [
+            50,
+            905,
+            false
+          ],
+          [
+            60,
+            1048,
+            false
+          ],
+          [
+            70,
+            1174,
+            false
+          ],
+          [
+            80,
+            1291,
+            false
+          ],
+          [
+            90,
+            1413,
+            false
+          ],
+          [
+            100,
+            1518,
+            false
+          ]
+        ]
+      },
+      {
+        "NickName": "System Fan #6",
+        "Identifier": "/lpc/nct6687dr/control/15",
+        "IsHidden": true,
+        "Enable": false,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "PairedFanSensor": null,
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": []
+      },
+      {
+        "NickName": "EZ-Connect Fan",
+        "Identifier": "/lpc/nct6687dr/control/3",
+        "IsHidden": true,
+        "Enable": false,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "PairedFanSensor": null,
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": []
+      },
+      {
+        "NickName": "System Fan #7",
+        "Identifier": "/lpc/nct6687dr/control/9",
+        "IsHidden": true,
+        "Enable": false,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "PairedFanSensor": null,
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": []
+      }
+    ],
+    "CustomSensors": [],
+    "FanCurves": [
+      {
+        "Name": "Intakes",
+        "IsHidden": false,
+        "CommandMode": 0,
+        "SelectedTempSource": {
+          "Identifier": "/lpc/nct6687dr/temperature/1"
+        },
+        "Points": [
+          "40,45",
+          "50,45",
+          "60,50",
+          "70,65",
+          "79.9669017939731,100"
+        ],
+        "MaximumTemperature": 120,
+        "MinimumTemperature": 20,
+        "MaximumCommand": 100,
+        "HysteresisConfig": {
+          "ResponseTimeUp": 1,
+          "ResponseTimeDown": 1,
+          "HysteresisValueUp": 2,
+          "HysteresisValueDown": 2,
+          "IgnoreHysteresisAtLimits": true
+        }
+      },
+      {
+        "Name": "CPU",
+        "IsHidden": false,
+        "CommandMode": 0,
+        "SelectedTempSource": {
+          "Identifier": "/amdcpu/0/temperature/2"
+        },
+        "Points": [
+          "40,45",
+          "70,100"
+        ],
+        "MaximumTemperature": 120,
+        "MinimumTemperature": 20,
+        "MaximumCommand": 100,
+        "HysteresisConfig": {
+          "ResponseTimeUp": 1,
+          "ResponseTimeDown": 1,
+          "HysteresisValueUp": 2,
+          "HysteresisValueDown": 2,
+          "IgnoreHysteresisAtLimits": true
+        }
+      },
+      {
+        "Name": "Exhaust",
+        "IsHidden": false,
+        "CommandMode": 0,
+        "SelectedTempSource": {
+          "Identifier": "/lpc/nct6687dr/temperature/1"
+        },
+        "Points": [
+          "50,25",
+          "60,40",
+          "70,60",
+          "80,100"
+        ],
+        "MaximumTemperature": 120,
+        "MinimumTemperature": 20,
+        "MaximumCommand": 100,
+        "HysteresisConfig": {
+          "ResponseTimeUp": 1,
+          "ResponseTimeDown": 1,
+          "HysteresisValueUp": 2,
+          "HysteresisValueDown": 2,
+          "IgnoreHysteresisAtLimits": true
+        }
+      },
+      {
+        "Name": "Stop",
+        "IsHidden": false,
+        "CommandMode": 0,
+        "Percent": 0
+      }
+    ],
+    "FanSensors": [
+      {
+        "Identifier": "/lpc/nct6687dr/fan/0",
+        "IsHidden": false,
+        "NickName": "CPU Fan"
+      },
+      {
+        "Identifier": "/lpc/nct6687dr/fan/1",
+        "IsHidden": false,
+        "NickName": "Pump Fan #1"
+      },
+      {
+        "Identifier": "/lpc/nct6687dr/fan/2",
+        "IsHidden": false,
+        "NickName": "Chipset Fan"
+      },
+      {
+        "Identifier": "/lpc/nct6687dr/fan/10",
+        "IsHidden": false,
+        "NickName": "System Fan #1"
+      },
+      {
+        "Identifier": "/lpc/nct6687dr/fan/11",
+        "IsHidden": false,
+        "NickName": "System Fan #2"
+      },
+      {
+        "Identifier": "/lpc/nct6687dr/fan/12",
+        "IsHidden": false,
+        "NickName": "System Fan #3"
+      },
+      {
+        "Identifier": "/lpc/nct6687dr/fan/13",
+        "IsHidden": false,
+        "NickName": "System Fan #4"
+      },
+      {
+        "Identifier": "/lpc/nct6687dr/fan/14",
+        "IsHidden": false,
+        "NickName": "System Fan #5"
+      },
+      {
+        "Identifier": "/lpc/nct6687dr/fan/15",
+        "IsHidden": false,
+        "NickName": "System Fan #6"
+      },
+      {
+        "Identifier": "/lpc/nct6687dr/fan/3",
+        "IsHidden": false,
+        "NickName": "EZ-Connect Fan"
+      },
+      {
+        "Identifier": "/lpc/nct6687dr/fan/9",
+        "IsHidden": false,
+        "NickName": "System Fan #7"
+      }
+    ],
+    "TemperatureSensors": []
+  },
+  "Sensors": {
+    "AdlxWrapperSettings": {
+      "Enabled": true
+    },
+    "DisabledPlugins": [],
+    "DisableStorageSensors": true,
+    "LibreHardwareMonitorSettings": {
+      "Controller": false,
+      "CPU": true,
+      "EmbeddedEC": true,
+      "GPU": true,
+      "Memory": false,
+      "Motherboard": true,
+      "PowerMonitor": false,
+      "PSU": true,
+      "Storage": false,
+      "StorageUpdateInterval": "00:01:00",
+      "ZeroRPMOverride": true
+    },
+    "NvAPIWrapperSettings": {
+      "Enabled": true,
+      "ZeroRPMOverride": true
+    }
+  },
+  "MainWindow": {
+    "Fahrenheit": false,
+    "HideCalibration": false,
+    "HideFanSpeedCards": true,
+    "HorizontalUIOrientation": false,
+    "PrimaryColor": "#FF607D8B",
+    "SecondaryColor": "#FFAEEA00",
+    "SelectedTheme": "",
+    "ShowHiddenCards": false,
+    "SyncThemeWithWindows": true,
+    "SyncTrayIconColorWithWindows": true,
+    "TrayIconColor": null,
+    "TrayIcons": []
+  }
+}
